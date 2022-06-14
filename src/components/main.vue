@@ -62,11 +62,11 @@
             <br /><br />
             <input
               type="text"
-              v-model="regDetails.country"
+              v-model="regDetails.reference"
               name="country"
               id="country"
               required
-              placeholder="Country"
+              placeholder="confirm passwor"
             />
           </div>
         </div>
@@ -89,8 +89,8 @@ export default {
         first_name: "",
         phone_number: "",
         email: "",
-        country: "",
         password: "",
+        reference: "",
       },
 
       // showModal: false,
@@ -98,6 +98,10 @@ export default {
   },
   methods: {
     async registerForm() {
+      // let res2 = await axios.get(
+      //   "https://authenticatapi.herokuapp.com/api/register"
+      // );
+      // console.log(res2);
       console.log(this.regDetails);
       let res = await axios.post(
         "https://authenticatapi.herokuapp.com/api/register",
@@ -111,7 +115,7 @@ export default {
           this.regDetails.email = "";
           this.regDetails.phone_number = "";
           this.regDetails.password = "";
-          this.regDetails.country = "";
+          this.regDetails.reference = "";
           this.showModal = false;
         }, 2000);
       }
