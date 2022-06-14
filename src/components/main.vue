@@ -52,21 +52,21 @@
             />
             <br /><br />
             <input
-              type="number"
+              type="text"
               v-model="regDetails.password"
               name="password"
               id="password"
               required
-              placeholder="Password"
+              placeholder="country"
             />
             <br /><br />
             <input
-              type="text"
-              v-model="regDetails.reference"
+              type="number"
+              v-model="regDetails.country"
               name="country"
               id="country"
               required
-              placeholder="confirm passwor"
+              placeholder="password"
             />
           </div>
         </div>
@@ -90,7 +90,7 @@ export default {
         phone_number: "",
         email: "",
         password: "",
-        reference: "",
+        country: "",
       },
 
       // showModal: false,
@@ -115,7 +115,7 @@ export default {
           this.regDetails.email = "";
           this.regDetails.phone_number = "";
           this.regDetails.password = "";
-          this.regDetails.reference = "";
+          this.regDetails.country = "";
           this.showModal = false;
         }, 2000);
       }
