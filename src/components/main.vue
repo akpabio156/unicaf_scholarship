@@ -61,7 +61,7 @@
             />
             <br /><br />
             <input
-              type="number"
+              type="text"
               v-model="regDetails.country"
               name="country"
               id="country"
