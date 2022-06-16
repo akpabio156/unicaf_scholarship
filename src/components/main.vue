@@ -261,7 +261,7 @@ input {
 @media (max-width: 1024px) {
   .form_div {
     position: relative;
-    height: 40vh;
+    height: 42vh;
     width: 36%;
     border: 1px solid rgb(224, 222, 222);
     bottom: 20rem;
@@ -293,7 +293,7 @@ input {
 @media (max-width: 768px) {
   .form_div {
     position: relative;
-    height: 43vh;
+    height: 45vh;
     width: 45%;
   }
 }
@@ -351,6 +351,11 @@ input {
     border-radius: 3px;
   }
 }
+@media (max-width: 595px) {
+  .form_div {
+    height: 47vh;
+  }
+}
 @media (max-width: 531px) {
   .form_div {
     position: relative;
@@ -376,7 +381,7 @@ input {
     border-radius: 3px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 439px) {
   .form_div {
     position: relative;
     height: 45vh;
@@ -390,7 +395,7 @@ input {
   @media (max-width: 414px) {
     .form_div {
       position: relative;
-      height: 35vh;
+      height: 45vh;
       width: 65%;
       border: 1px solid rgb(224, 222, 222);
       bottom: 20rem;
@@ -416,6 +421,11 @@ input {
     font-size: 14px;
   }
 }
+@media (max-width: 407px) {
+  .container-fluid {
+    height: 79.5vh;
+  }
+}
 @media (max-width: 393px) {
   .form_div {
     position: relative;
@@ -434,11 +444,15 @@ input {
     height: 63vh;
   }
 }
-
-@media (max-width: 390px) {
+@media (max-width: 395px) {
+  .form_div {
+    height: 46vh;
+  }
+}
+@media (max-width: 381px) {
   .form_div {
     position: relative;
-    height: 38vh;
+    height: 46vh;
     width: 65%;
     border: 1px solid rgb(224, 222, 222);
     bottom: 17rem;
@@ -456,7 +470,7 @@ input {
 @media (max-width: 375px) {
   .form_div {
     position: relative;
-    height: 45vh;
+    height: 47vh;
     width: 65%;
     border: 1px solid rgb(224, 222, 222);
     bottom: 20rem;
@@ -474,7 +488,7 @@ input {
 @media (max-width: 320px) {
   .form_div {
     position: relative;
-    height: 45vh;
+    height: 46vh;
     width: 76%;
     border: 1px solid rgb(224, 222, 222);
     bottom: 18rem;
